@@ -53,7 +53,12 @@ Bloquer un trafic sortant : sur Instagram
  
  
 ![Informations système machine 1](img/Image6.jpg)
- 
+
+
+![Informations système machine 1](img/Image7.jpg)
+
+
+![Informations système machine 1](img/Image8.jpg)
 
 1.	Ouvrir l’invite de commandes Windows.
 2.	Effectuer un premier test de connectivité avec la commande :
