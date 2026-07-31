@@ -18,6 +18,8 @@ Le laboratoire a été réalisé sur une machine virtuelle Windows. L’utilisat
 
 
 **Déroulement du laboratoire** 
+
+
 ![Informations système machine 1](img/Image1.jpg)
  
 
@@ -31,7 +33,9 @@ Dans le cas où la réponse dépasse 512 octets ou pour le transfert de zone ent
 
 1.	On Créer une règle de pare-feu Windows pour bloquer le trafic DNS.
  
+![Informations système machine 1](img/Image2.jpg)
 
+![Informations système machine 1](img/Image3.jpg)
 
   
 
@@ -39,7 +43,7 @@ Dans le cas où la réponse dépasse 512 octets ou pour le transfert de zone ent
 1.	On Créer une règle de pare-feu Windows pour bloquer l’accès à un site Instagram au poste.
 
  
-
+![Informations système machine 1](img/Image4.jpg)
 On Observer les effets de cette règle sur la résolution du nom de domaine.
 
 Bloquer un trafic sortant : sur Instagram
