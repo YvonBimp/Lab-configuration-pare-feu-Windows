@@ -17,7 +17,8 @@ Le laboratoire a été réalisé sur une machine virtuelle Windows. L’utilisat
 
 
 
-**Déroulement du laboratoire** (img/image1.jpg)
+**Déroulement du laboratoire** 
+![Informations système machine 1](img/image1.jpg)
  
 
 -	On Crée une règle au niveau du pare-feu pour bloquer le flux DNS
