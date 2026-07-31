@@ -12,8 +12,10 @@ Rappel théorique
 Le DNS, ou Domain Name System, est un service essentiel du réseau qui permet de traduire un nom de domaine en adresse IP. Il utilise principalement le port 53 en UDP, et dans certains cas le port 53 en TCP, notamment pour des transferts de zone ou lorsque la réponse dépasse la capacité standard d’un paquet UDP.
 Sans DNS, un poste de travail peut avoir de la difficulté à résoudre les noms de domaine, même si la connectivité IP reste active. Cela explique pourquoi le blocage du port DNS a un effet direct sur l’accès aux ressources web par nom de domaine.
 Environnement
+
 Le laboratoire a été réalisé sur une machine virtuelle Windows. L’utilisation d’une VM permet d’effectuer les tests en toute sécurité, sans compromettre l’environnement principal.
-Déroulement du laboratoire
+
+Déroulement du laboratoire(img/Image1.jpg)
  
 
 -	On Crée une règle au niveau du pare-feu pour bloquer le flux DNS
