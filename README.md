@@ -1,11 +1,11 @@
 # Lab-configuration-pare-feu-Windows
 Laboratoire de configuration d’un pare-feu Windows
 
-Introduction
+**Introduction**
 
 Ce laboratoire vise à démontrer le fonctionnement du pare-feu Windows à travers la création d’une règle de filtrage du trafic DNS. L’objectif est d’observer l’impact d’une restriction réseau sur la résolution des noms de domaine et sur la connectivité vers un site web donné.
 
-Objectif
+**Objectif**
 
 L’objectif principal est de bloquer les flux DNS entrants et sortants en configurant une règle dans le pare-feu Windows. Cette manipulation permet de comprendre comment une politique de sécurité peut influencer la communication entre une machine et un serveur DNS.
 Rappel théorique
@@ -40,7 +40,7 @@ Dans le cas où la réponse dépasse 512 octets ou pour le transfert de zone ent
   
 
 
-1.	On Créer une règle de pare-feu Windows pour bloquer l’accès à un site Instagram au poste.
+**1.	On Créer une règle de pare-feu Windows pour bloquer l’accès à un site Instagram au poste.**
 
  
 ![Informations système machine 1](img/Image4.jpg)
@@ -63,23 +63,28 @@ Bloquer un trafic sortant : sur Instagram
 1.	Ouvrir l’invite de commandes Windows.
 2.	Effectuer un premier test de connectivité avec la commande :
 ping quebec.ca
+
+![Informations système machine 1](img/Image9.jpg)
  
 3.	Vider le cache DNS avec la commande :
 ipconfig /flushdns
+
+
 4.	Refaire un ping vers quebec.ca afin de vérifier le comportement après la suppression du cache. 
  
+![Informations système machine 1](img/Image10.jpg)
 
-Observations
+**Observations**
 
 Avant l’application de la règle, la machine parvient à résoudre le nom de domaine et à communiquer avec quebec.ca. Après le vidage du cache DNS, une nouvelle résolution est effectuée, ce qui permet de vérifier le rôle du service DNS dans l’accès au site.
 Une fois la règle de pare-feu appliquée, le trafic DNS est bloqué, ce qui perturbe la résolution des noms de domaine. Lorsque la règle est désactivée, le comportement normal est rétabli, confirmant que le blocage du port 53 a bien eu un effet sur la communication réseau.
 
-Analyse
+**Analyse**
 
 Cette expérience démontre l’importance du DNS dans le fonctionnement d’Internet et met en évidence le rôle du pare-feu dans le contrôle du trafic réseau. En bloquant un service aussi fondamental, on observe rapidement l’impact d’une mesure de sécurité sur l’accessibilité aux ressources web.
 Le laboratoire illustre aussi l’utilité des règles de pare-feu pour la gestion fine des communications réseau. Dans un contexte professionnel, ce type de configuration peut servir à renforcer la sécurité, à limiter certains flux ou à tester la résilience d’un environnement informatique.
 
-Conclusion
+**Conclusion**
 Ce laboratoire a permis de configurer et de valider une règle de pare-feu Windows visant à bloquer le trafic DNS. L’exercice a montré de façon concrète le lien entre la résolution des noms de domaine, la connectivité réseau et les mécanismes de filtrage de sécurité.
 
 Ce laboratoire avait pour objectif de démontrer l’impact d’une règle de pare-feu Windows sur le trafic DNS. À travers différentes manipulations, il a été possible d’observer que le blocage du port 53 perturbe la résolution des noms de domaine et, par conséquent, l’accès aux ressources web. Cette activité a permis de mieux comprendre le rôle du pare-feu dans la sécurisation d’un poste de travail et dans la gestion du trafic réseau un style encore plus naturel.
