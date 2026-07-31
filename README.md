@@ -44,14 +44,15 @@ Dans le cas où la réponse dépasse 512 octets ou pour le transfert de zone ent
 
  
 ![Informations système machine 1](img/Image4.jpg)
-On Observer les effets de cette règle sur la résolution du nom de domaine.
+
+**On Observer les effets de cette règle sur la résolution du nom de domaine.**
 
 Bloquer un trafic sortant : sur Instagram
 
-NSLOOKUP :  trouver ladresse IP du site à limiter l’accès 
+**NSLOOKUP :  trouver ladresse IP du site à limiter l’accès** 
  
  
-
+![Informations système machine 1](img/Image6.jpg)
  
 
 1.	Ouvrir l’invite de commandes Windows.
