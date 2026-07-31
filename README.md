@@ -15,7 +15,9 @@ Environnement
 
 Le laboratoire a été réalisé sur une machine virtuelle Windows. L’utilisation d’une VM permet d’effectuer les tests en toute sécurité, sans compromettre l’environnement principal.
 
-Déroulement du laboratoire(img/Image1.jpg)
+
+##
+**Déroulement du laboratoire** (img/image1.jpg)
  
 
 -	On Crée une règle au niveau du pare-feu pour bloquer le flux DNS
